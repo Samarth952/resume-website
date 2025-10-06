@@ -84,3 +84,48 @@ footer {
   font-size: 14px;
   color: #999;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  all: unset;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #fafafa !important;
+  color: #222 !important;
+  display: block;
+}
+
+section {
+  padding: 50px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+#education { background-color: #f0f4f8; }
+#skills { background-color: #ffffff; }
+#projects { background-color: #f0f4f8; }
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #003366;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #003366;
+  color: white;
+  border-radius: 10px;
+}
